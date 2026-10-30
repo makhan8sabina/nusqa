@@ -93,7 +93,7 @@ function start(v){
   d.qs.forEach(function(q,i){ if(q.fig) mkViewer($('vw'+i), q.fig); });
 }
 function goHome(){
-  $('quiz').classList.add('hide'); $('home').classList.remove('hide'); window.scrollTo(0,0);
+  $('quiz').classList.add('hide'); $('fm').classList.add('hide'); $('home').classList.remove('hide'); window.scrollTo(0,0);
 }
 function _unused(inp){
   var f = inp.files[0]; if(!f) return;
